@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main()
+{
+    int x1[]= {2,3,5,7,11,13,17,19,23,29};
+    int x[]={5,2,8,14,10,9};
+    int t,i,j;
+    for(i=0;i<6;i++)
+    {
+        for(j=0;j<6-i-1;j++)
+        {
+            if(x[j]>x[j+1])
+            {
+                t=x[j];
+                x[j]=x[j+1];
+                x[j+1]=t;
+            }
+        }
+    }
+    for(i=0;i<6;i++)
+    {
+        printf("%d ",x[i]);
+    }
+}
+
+We have to do n-1 comparisons in 1st iteration and n-2 in 2nd one or n-3 in 3rd and so on..
+So..
+
+(n-1) + (n-2) + (n-3) + ..... + 3 + 2 + 1
+Sum = n(n-1)/2
+hence, 0(n^2)
