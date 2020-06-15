@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main()
+{
+    int x[]={5,4,3,2,1};
+    int i,j,min,t;
+    for(i=0;i<5;i++)
+    {
+        min=i;
+        for(j=i+1;j<5;j++)
+        {
+            if(x[min]>x[j])
+            {
+                min=j;
+            }
+            if(min!=i)
+            {
+                t=x[i];
+                x[i]=x[min];
+                x[min]=t;
+            }
+        }
+    }
+    for(i=0;i<5;i++)
+    {
+        printf("%d ",x[i]);
+    }
+}
+
+iteration 1 -> 1 to n
+iteration 2 -> 2 to n
+iteration 3 -> 3 to n
+iteration 4 -> 4 to n
+	
+so we can say,
+n+n-1+n-2+..+1 
+n(n-1)/2 if we applay big oh notion O(n^2-n) or O(n^2)
+hence 0(n^2) is the time complexity

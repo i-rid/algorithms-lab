@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main()
+{
+    int x1[]= {2,3,5,7,11,13,17,19,23,29};
+    int x[]={5,2,8,14,10,9};
+    int t,i,j;
+    for(i=0;i<6;i++)
+    {
+        for(j=0;j<6-i-1;j++)
+        {
+            if(x[j]>x[j+1])
+            {
+                t=x[j];
+                x[j]=x[j+1];
+                x[j+1]=t;
+            }
+        }
+    }
+    for(i=0;i<6;i++)
+    {
+        printf("%d ",x[i]);
+    }
+}
+
+1st iteration => | 4 | 3 | 2 | 1 | No. of comparisons = 1  |  No. of movements = 1 
+2nd iteration => | 3 | 4 | 2 | 1 | No. of comparisons = 2  |  No. of movements = 2
+3rd iteration => | 2 | 3 | 4 | 1 | No. of comparisons = 3  |  No. of movements = 3
+4th iteration => | 1 | 2 | 3 | 4 | No. of comparisons = 4  |  No. of movements = 4
+T(n) = 2 + 4 + 6 + 8 + ---------- + 2(n-1)
+
+T(n) = 2 * ( 1 + 2 + 3 + 4 + -------- + (n-1))
+
+T(n) = 2 * (n(n-1))/2
+
+T(n) = O(n^2)
