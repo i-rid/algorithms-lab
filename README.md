@@ -4,10 +4,10 @@ Alorithms Lab Class of Summer 20
 Prolem Set 1[Theory]
 
 Assignment      
-Assignment I  
-Assignment II
+1.Assignment I  
+2.Assignment II
 
-Project: Comparative Study On Different Data Structure And Algorithm
+Comparative Study On Different Data Structure And Algorithm
 
 Lab 1 Task 1
 1. Linear Search 
