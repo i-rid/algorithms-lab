@@ -31,4 +31,4 @@ Week 6
 
 Week 7
 
-1.
+1. Lab Manual 07 Binpack Problem 1
