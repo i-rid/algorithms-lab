@@ -27,7 +27,8 @@ Week 6
 1. Lab Manual 06 Coin Change-DP Problem 1
 2. Lab Manual 06 Fibonacci-DP Problem 1
 3. Lab Manual 06 Fibonacci-DP Problem 2
-4. Lab Manual 06 --------- Problem 1
+4. Lab Manual 06 Knapsack-DP Problem 1
 
 Week 7
+
 1.
