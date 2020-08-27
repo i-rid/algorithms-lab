@@ -1,6 +1,10 @@
 # algorithms-lab
 Alorithms Lab Class of Summer 20
 
+
+Comparative Study
+1. Link of Comparative Study on Different Algorithms
+
 Prolem Set 1[Theory]
 
 Assignment      
