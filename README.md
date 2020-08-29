@@ -21,6 +21,14 @@ Lab 1 Task 2
 1. Insertion Sort
 2. Selection Sort
 
+Presentation Video and Slide Link
+
+1.Group Presentation Slides Link
+
+2.Individual Presentation Slide Link
+
+3.Individual Video Presentation Link
+
 Week 5
 1. Lab Manual 05 Merge Sort Problem 1
 2. Lab Manual 05 Merge Sort Problem 2
